@@ -115,6 +115,11 @@ module.exports = {
                     from: '*',
                     to: resolve(PROJECT_PATH, './dist'),
                     toType: 'dir',
+                    globOptions: {
+                        dot: true,
+                        gitignore: true,
+                        ignore: ["**/index.html"],
+                    },
                 },
             ],
         }),
