@@ -168,5 +168,6 @@ module.exports = {
             config: [__filename],
         },
         name: 'production-cache'
-    }
+    },
+    stats: 'errors-only',
 }

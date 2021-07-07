@@ -9,6 +9,9 @@ module.exports = merge(common, {
     devServer: {
         host: SERVER_HOST,
         port: SERVER_PORT,
+        client: {
+            logging: 'none'
+        },
         compress: true,
         open: true,
         hot: true,
